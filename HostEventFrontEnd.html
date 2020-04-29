@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:margin-right="http://www.w3.org/1999/xhtml">
+<head>
+    <style type="text/css">
+        p.leftmargin {margin-left: 300px}
+    </style>
+    <meta charset=utf-8 />
+    <title> Host your event -- Busy Tomorrow? </title>
+    <script src="ws3js_working.js"></script>
+    <head1><font size = "12" style="text-align:left; margin-top:50px; padding-left:10px ;padding-right:10px">Busy Tomorrow? </head1>
+    <center><head2> <p id ='head'> <font size = "5">Core Functionality for your meeting: Host your event! </p> </head2></center>
+</head>
+
+<body>
+<br></br>
+<br></br>
+<p class="leftmargin">Set up your event below:
+    <center>
+    <hr width=60%>
+    <table id = "inputattributes" table width = "54%">
+        <tr>
+            <td width = 20%>Event Name: </td>
+            <td width = 50%><input type="text" name="EventName" id="name" style = "width:480px"></td>
+            </td>
+        </tr>
+        <tr>
+            <td width = 20%>Event Place: </td>
+            <td width = 50%><input type="text" name="EventName" id="place" style = "width:480px"></td>
+            </td>
+        </tr>
+        <tr>
+            <td width = 20%>Choose your time: </td>
+            <td>
+                <input type="date"/>
+                <select>
+                    <option value = "12:00 am">12:00</option>
+                    <option value = "1:00 am">1:00</option>
+                    <option value = "2:00 am">2:00</option>
+                    <option value = "3.00 am">3.00</option>
+                    <option value = "4.00 am">4.00</option>
+                    <option value = "5.00 am">5.00</option>
+                    <option value = "6.00 am">6.00</option>
+                    <option value = "7.00 am">7.00</option>
+                    <option value = "8.00 am">8.00</option>
+                    <option value = "9.00 am">9.00</option>
+                    <option value = "10.00 am">10.00</option>
+                    <option value = "11.00 am">11.00</option>
+                </select>
+                <select>
+                    <option value = "am">am</option>
+                    <option value = "pm">pm</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td width = 20%>Choose your Activity type: </td>
+            <td>
+                <select>
+                    <option value = "online">Online Activity</option>
+                    <option value = "offline">Offline Party</option>
+                    <option value = "offline">Exhibition</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td width = 20%>Event Description: </td>
+            <td width = 50%><input type="text" name="EventName" id="Description" style="width:480px;height:120px"></td>
+            </td>
+        </tr>
+    </table>
+    <hr width=60%>
+    <br></br>
+    <button>Complete</button>
+    <button>Cancel</button>
+</center>
+</body>
+</html>
